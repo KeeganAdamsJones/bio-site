@@ -1,0 +1,83 @@
+body {
+    font-family: 'Montserrat';
+    background-color: black;
+    color: white;
+}
+
+.image-1 {
+    /* border radius alone was not rounding my corners...
+        i had to add overflow and perspective to make it work */
+    overflow: hidden;
+    perspective: 1px;
+    border-radius: 150%;
+    position: absolute;
+    margin-top:-300px;
+    margin-left: 550px;
+    z-index: -1;
+}
+
+.image-2 {
+    border-radius: 75%;
+    position: relative;
+    width: 250px;
+    height: auto;
+    transform: skewY(335deg);
+    margin-top: 225px;
+    margin-left: 0px;
+    z-index: 1;
+}
+
+a {
+    color: #AE31C4;
+}
+
+ul {
+    margin-left: 300px;
+}
+
+.about-link {
+    color: #86DC56;
+}
+
+.artGallery-link {
+    color:#86DC56
+}
+
+.image-and-bio {
+    background-color: #5400E1;
+    color: black;
+}
+.image-gallery {
+    background-color: #3680DB;
+}
+
+.image-10{
+    position: absolute;
+    float: left;
+    margin-top: 100px;
+}
+
+.bio-statement {
+    position: relative;
+    float: right;
+    margin-right: 25px;
+    margin-top: 50px;
+
+}
+
+h1 {
+    text-align: center;
+}
+/*
+.external-links {
+    position: relative;  
+}
+*/
+
+/*.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #5400E1;
+    padding: 10px;
+}
+*/
