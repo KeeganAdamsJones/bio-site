@@ -4,6 +4,12 @@ body {
     color: white;
 }
 
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
 .image-1-img {
     /* border radius alone was not rounding my corners...
         i had to add overflow and perspective to make it work */
@@ -53,42 +59,155 @@ ul {
 .artGallery-link {
     color:#86DC56
 }
-
+/* ******** about page ********** */
 .image-and-bio {
+    margin-top: -800px;
     background-color: #5400E1;
     color: black;
+    padding: 15px;
 }
+
+.image-10{
+    /*position: absolute;*/
+    float: left;
+    
+}
+
+.bio-statement {
+    /*position: relative;
+    float: right;*/
+    margin-left: 250px;
+   
+    margin-top: 800px;
+    color: black;
+
+}
+
+/* */
+
+.image-11-and-quote {
+    margin-top: 25px;
+    background-color: #FACF00;
+    color: black;
+    padding: 15px;
+}
+
+.image-11 {
+    /*position: absolute;*/
+    float: left;
+    margin-left: 25px;
+    
+}
+
+
+.quote-1 {
+    margin-left: 450px;
+    margin-top: 25px;
+    color: black;
+    
+}
+
+/* */
+
+.image-12-and-quote {
+    margin-top: 25px;
+    background-color: #3680DB;
+    color: black;
+    padding: 15px;
+}
+
+.image-12 {
+    /*position: absolute;*/
+    float: left;
+    margin-left: 25px;
+    
+}
+
+
+.quote-2 {
+    margin-left: 450px;
+    margin-top: 25px;
+    color: black;
+    padding: 100px;
+}
+
+/* */
+
+.image-13-and-quote {
+    margin-top: 25px;
+    background-color: #86DC56;
+    color: black;
+    padding: 15px;
+}
+
+.image-13 {
+    /*position: absolute;*/
+    float: left;
+    margin-left: 25px;
+    
+}
+
+
+.quote-3 {
+    margin-left: 450px;
+    margin-top: 25px;
+    color: black;
+    padding: 125px;
+}
+
+/* */
+
+.image-14-and-quote {
+    margin-top: 25px;
+    background-color: #AE31C4;
+    color: black;
+    padding: 15px;
+}
+
+.image-14 {
+    /*position: absolute;*/
+    float: left;
+    margin-left: 25px;
+    
+}
+
+
+.quote-4 {
+    margin-left: 450px;
+    margin-top: 25px;
+    color: black;
+    padding: 100px;
+}
+
+
+
+/*.external-links {
+      
+    width: 100%;
+}*/
+
+
+.grid-container {
+    /*display: grid;
+    grid-template-columns: auto auto;*/
+    background-color: #86DC56;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+.image-11 {
+    background-color: #AE31C4;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+/* ******* gallery page ******** */
+
 .image-gallery {
     background-color: #3680DB;
 }
 
-.image-10{
-    position: absolute;
-    float: left;
-    margin-top: 100px;
+.footer {
+    background-color: black;
+    padding 25px;
 }
-
-.bio-statement {
-    position: relative;
-    float: right;
-    margin-right: 25px;
-    margin-top: 50px;
-
-}
-
-h1 {
-    text-align: center;
-}
-/*
-.external-links {
-    position: relative;  
-}
-*/
-
-/*.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    background-color: #5400E1;
-    padding: 10px;
-}
-*/
