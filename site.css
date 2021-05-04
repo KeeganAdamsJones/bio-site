@@ -44,6 +44,16 @@ h1 {
     z-index: 1;
 }
 
+.flexcontainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flexcontainer .links {
+    flex-wrap: wrap;
+    
+}
+
 a {
     color: #AE31C4;
 }
@@ -61,7 +71,6 @@ ul {
 }
 /* ******** about page ********** */
 .image-and-bio {
-    margin-top: -800px;
     background-color: #5400E1;
     color: black;
     padding: 15px;
@@ -76,11 +85,10 @@ ul {
 .bio-statement {
     /*position: relative;
     float: right;*/
-    margin-left: 250px;
+    /* margin-left: 250px;
    
-    margin-top: 800px;
+    margin-top: 800px; */
     color: black;
-
 }
 
 /* */
@@ -93,7 +101,6 @@ ul {
 }
 
 .image-11 {
-    /*position: absolute;*/
     float: left;
     margin-left: 25px;
     
@@ -101,8 +108,7 @@ ul {
 
 
 .quote-1 {
-    margin-left: 450px;
-    margin-top: 25px;
+    margin-top: 225px;
     color: black;
     
 }
@@ -117,7 +123,6 @@ ul {
 }
 
 .image-12 {
-    /*position: absolute;*/
     float: left;
     margin-left: 25px;
     
@@ -125,7 +130,6 @@ ul {
 
 
 .quote-2 {
-    margin-left: 450px;
     margin-top: 25px;
     color: black;
     padding: 100px;
@@ -149,7 +153,6 @@ ul {
 
 
 .quote-3 {
-    margin-left: 450px;
     margin-top: 25px;
     color: black;
     padding: 125px;
@@ -173,26 +176,15 @@ ul {
 
 
 .quote-4 {
-    margin-left: 450px;
     margin-top: 25px;
     color: black;
     padding: 100px;
 }
 
-
-
-/*.external-links {
-      
-    width: 100%;
-}*/
-
-
-.grid-container {
-    /*display: grid;
-    grid-template-columns: auto auto;*/
+.links {
+    margin-top: 25px;
     background-color: #86DC56;
     padding: 25px;
-    margin-top: 50px;
 }
 
 .image-11 {
@@ -209,5 +201,5 @@ ul {
 
 .footer {
     background-color: black;
-    padding 25px;
+    padding: 25px;
 }
