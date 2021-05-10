@@ -29,7 +29,7 @@ h1 {
 
     position: absolute;
     margin-top:200px;
-    margin-left: 550px;
+    /*margin-left: 0px;*/
     z-index: -1;
 }
 
@@ -63,11 +63,11 @@ ul {
 }
 
 .about-link {
-    color: #86DC56;
+    color: #fcfcfc;
 }
 
 .artGallery-link {
-    color:#86DC56
+    color:#f9faf9
 }
 /* ******** about page ********** */
 .image-and-bio {
