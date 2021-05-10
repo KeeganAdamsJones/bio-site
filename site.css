@@ -10,6 +10,10 @@ h1 {
     color: white;
 }
 
+figure {
+    display:inline;
+}
+
 .image-1-img {
     /* border radius alone was not rounding my corners...
         i had to add overflow and perspective to make it work */
@@ -17,7 +21,7 @@ h1 {
     perspective: 1px;
     border-radius: 150%;
     position: absolute;
-    margin-top:-300px;
+    margin-top:-375px;
     margin-left: 550px;
     z-index: -1;
 }
@@ -45,8 +49,17 @@ h1 {
 }
 
 .flexcontainer {
-    display: flex;
+    display: block;
     justify-content: space-evenly;
+}
+
+.flexcontainer-2 {
+    display: block;
+    justify-content: space-evenly;
+    width:100%;
+    text-align: center;
+    margin-top: 30px;
+    padding: 25px;
 }
 
 .flexcontainer .links {
@@ -71,7 +84,7 @@ ul {
 }
 /* ******** about page ********** */
 .image-and-bio {
-    background-color: #5400E1;
+    background-color: #3680db;
     color: black;
     padding: 15px;
 }
@@ -83,11 +96,6 @@ ul {
 }
 
 .bio-statement {
-    /*position: relative;
-    float: right;*/
-    /* margin-left: 250px;
-   
-    margin-top: 800px; */
     color: black;
 }
 
@@ -95,7 +103,7 @@ ul {
 
 .image-11-and-quote {
     margin-top: 25px;
-    background-color: #FACF00;
+    background-color: #AE31C4;
     color: black;
     padding: 15px;
 }
@@ -145,7 +153,6 @@ ul {
 }
 
 .image-13 {
-    /*position: absolute;*/
     float: left;
     margin-left: 25px;
     
@@ -168,7 +175,6 @@ ul {
 }
 
 .image-14 {
-    /*position: absolute;*/
     float: left;
     margin-left: 25px;
     
@@ -202,4 +208,28 @@ ul {
 .footer {
     background-color: black;
     padding: 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #AE31C4;
 }
