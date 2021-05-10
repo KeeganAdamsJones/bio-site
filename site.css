@@ -64,7 +64,7 @@ figure {
 
 .flexcontainer .links {
     flex-wrap: wrap;
-    
+    justify-content: space-evenly;
 }
 
 a {
